@@ -2,9 +2,10 @@ Parzyści
 ========
 
 Napisać następujące skrypty:
- * sortujący kolumnę liczb zawartą w pliku `$1` od najmniejszych do największych
- * wyświetlający zawartość pliku `$1` z ponumerowanymi liniami, ale tylko o numerach 20-30 (`cat`, `nl`, `head`, `tail`)
- * sumujący dwie kolumny liczb zawarte w pliku `$1` oraz wyświetlający kolumnę wynikową (`cat`, `while`, `read`, `echo`)
+ * sortujący kolumnę liczb zawartą w pliku podanym przez parametr `$1` od najmniejszych do największych (`cat`, `sort`)
+ * wyświetlający zawartość pliku podanym przez parametr `$1` z ponumerowanymi liniami, ale tylko o numerach 20-30 (`cat`, `nl`, `head`, `tail`)
+ * sumujący dwie kolumny liczb zawarte w pliku podanym przez parametr `$1` oraz wyświetlający kolumnę wynikową (`cat`, `while`, `read`, `echo`)
+ * filtrujący listę procesów tak aby pokazane zostały tylko procesy aktualnego użytkownika (`ps -elF`, `grep`, `whoami`) 
  * wyświetlający statystykę mówiącą ile procesów przypada na każdego użytkownika (UID) (`ps -elF`, `tr`, `cut`, `sort`, `uniq`) np:
 ```
       2 avahi
@@ -25,9 +26,10 @@ Nieparzyści
 ===========
 
 Napisać następujące skrypty:
- * sortujący kolumnę liczb zawartą w pliku `$1` od największych do najmniejszych
- * wyświetlający zawartość pliku `$1` z ponumerowanymi liniami, ale tylko o numerach 15-45 (`cat`, `nl`, `head`, `tail`)
- * mnożący dwie kolumny liczb zawarte w pliku `$1` oraz wyświetlający kolumnę wynikową (`cat`, `while`, `read`, `echo`)
+ * sortujący kolumnę liczb zawartą w pliku podanym przez parametr `$1` od największych do najmniejszych (`cat`, `sort`)
+ * wyświetlający zawartość pliku podanym przez parametr `$1` z ponumerowanymi liniami, ale tylko o numerach 15-45 (`cat`, `nl`, `head`, `tail`)
+ * mnożący dwie kolumny liczb zawarte w pliku podanym przez parametr `$1` oraz wyświetlający kolumnę wynikową (`cat`, `while`, `read`, `echo`)
+ * filtrujący listę procesów tak aby pokazane zostały tylko procesy aktualnego użytkownika (`ps -elF`, `grep`, `whoami`) 
  * wyświetlający statystykę mówiącą ile różnych priorytetów (NI) występuje w danym momencie w systemie oraz ich ilości (`ps -elF`, `tr`, `cut`, `sort`, `uniq`) np:
 ```
       4 -
@@ -76,3 +78,12 @@ Zadanie dla wszystkich
       1 xpl
 
 ```
+
+Bonus (na własnym laptopie)
+===========================
+
+ * zbadać jak działa `ps -elF` przy pomocy: `strace`, `ps -elF`, `grep`, `head`
+ * wysłać HTTP request do strony `http://onet.pl` za pomocą: `cat`, `nc`, `ping`
+ * postawić serwer www na porcie `80` i połączyć się do niego za pomocą przeglądarki (`nc`)
+ * poćwiczyć gita: https://try.github.io/levels/1/challenges/1
+ * stworzyć repo gitowe, zrobić kilka commitów, brancha, kilka commitów na branchu, merge do mastera i push do github-a (wszystkich branchy)
