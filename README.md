@@ -1,4 +1,4 @@
-Repozytorium do zajec z systemow operacyjnych 2
+Repozytorium do zajęć z systemów operacyjnych 2
 ===============================================
 
-Instrukcje do poszczegolnych zadan znajduja sie w podfolderach
+Instrukcje do poszczególnych zadań znajdują się w podfolderach

@@ -3,7 +3,7 @@ Parzyści
 
 Napisać następujące skrypty:
  * sortujący kolumnę liczb zawartą w pliku podanym przez parametr `$1` od najmniejszych do największych (`cat`, `sort`)
- * wyświetlający zawartość pliku podanym przez parametr `$1` z ponumerowanymi liniami, ale tylko o numerach 20-30 (`cat`, `nl`, `head`, `tail`)
+ * wyświetlający zawartość pliku podanego przez parametr `$1` z ponumerowanymi liniami, ale tylko o numerach 20-30 (`cat`, `nl`, `head`, `tail`)
  * sumujący dwie kolumny liczb zawarte w pliku podanym przez parametr `$1` oraz wyświetlający kolumnę wynikową (`cat`, `while`, `read`, `echo`)
  * filtrujący listę procesów tak aby pokazane zostały tylko procesy aktualnego użytkownika (`ps -elF`, `grep`, `whoami`) 
  * wyświetlający statystykę mówiącą ile procesów przypada na każdego użytkownika (UID) (`ps -elF`, `tr`, `cut`, `sort`, `uniq`) np:
@@ -27,7 +27,7 @@ Nieparzyści
 
 Napisać następujące skrypty:
  * sortujący kolumnę liczb zawartą w pliku podanym przez parametr `$1` od największych do najmniejszych (`cat`, `sort`)
- * wyświetlający zawartość pliku podanym przez parametr `$1` z ponumerowanymi liniami, ale tylko o numerach 15-45 (`cat`, `nl`, `head`, `tail`)
+ * wyświetlający zawartość pliku podanego przez parametr `$1` z ponumerowanymi liniami, ale tylko o numerach 15-45 (`cat`, `nl`, `head`, `tail`)
  * mnożący dwie kolumny liczb zawarte w pliku podanym przez parametr `$1` oraz wyświetlający kolumnę wynikową (`cat`, `while`, `read`, `echo`)
  * filtrujący listę procesów tak aby pokazane zostały tylko procesy aktualnego użytkownika (`ps -elF`, `grep`, `whoami`) 
  * wyświetlający statystykę mówiącą ile różnych priorytetów (NI) występuje w danym momencie w systemie oraz ich ilości (`ps -elF`, `tr`, `cut`, `sort`, `uniq`) np:
