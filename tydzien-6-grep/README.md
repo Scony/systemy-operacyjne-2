@@ -53,7 +53,7 @@ Nieparzyści
  * zlicza ilość niepustych linii
  * zlicza ilość linii zakończonych średnikiem `;`
  * zlicza ilość linii zawierających tylko 2 znaki
- * zlicza ilość linii nie zawierających cyfr oraz podkreślników `0-9` oraz `_`
+ * zlicza ilość linii nie zawierających cyfr `0-9` oraz podkreślników `_`
  * zlicza ilość linii zawierających dokładnie dwie kropki obok siebie. Przykładowa linijka pasująca do wzorca: `//   x - offset .. x + square_size - offset - 1,`
  * zlicza ilość linii zawierających liczby hexadecymalne. Przykładowe liczby hexadecymalne: `0xff9900` lub `0xFF9900`
  * zlicza ilość linii zakończonych trójliterowym rozszerzeniem pliku. Przykładowa linijka pasująca do wzorca: `BEES_PNG=$(dirname $0)/bees.png`
