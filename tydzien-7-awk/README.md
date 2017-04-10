@@ -42,6 +42,7 @@ Napisac nastepujace skrypty AWK:
 7. Skrypt zamieniajacy male litery na duze, ale tylko w slowach ktore nie zawieraja w sobie literek `Z` lub `z`
 8. Skrypt wyswietlajacy ilosc slow dluzszych niz 10 znakow
 9. Skrypt liczacy sume elementow lezacych na glownej przekatnej macierzy.
+
 Dla ponizszego pliku wynik powinien wyniesc `18`
 ```
 6  0  1  7
@@ -99,6 +100,7 @@ Napisac nastepujace skrypty AWK:
 7. Skrypt zamieniajacy male litery na duze, ale tylko w slowach ktore nie zawieraja w sobie literek `g` lub `G`
 8. Skrypt wyswietlajacy ilosc slow krotszych niz 10 znakow
 9. Skrypt liczacy sume elementow lezacych na glownej przekatnej macierzy.
+
 Dla ponizszego pliku wynik powinien wyniesc `18`
 ```
 6  0  1  7
