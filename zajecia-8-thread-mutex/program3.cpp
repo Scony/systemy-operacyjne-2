@@ -1,18 +1,15 @@
 #include <iostream>
 #include <thread>
 #include <vector>
-#include <mutex>
 
 long long sum = 0;
-std::mutex mx;
 
 void foo()
 {
-  for (int i = 0; i < 100000; i++)
+  for (int i = 0; i < 1000000; i++)
     {
-      std::lock_guard<std::mutex> lock(mx); // mx.lock()
       sum += 7;
-    } // mx.unlock() - w destruktorze lock-a
+    }
 }
 
 int main()

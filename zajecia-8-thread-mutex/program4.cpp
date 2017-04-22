@@ -8,7 +8,7 @@ std::mutex mx;
 
 void foo()
 {
-  for (int i = 0; i < 100000; i++)
+  for (int i = 0; i < 1000000; i++)
     {
       mx.lock();
       sum += 7;
