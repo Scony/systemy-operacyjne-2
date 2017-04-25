@@ -19,7 +19,7 @@ Wymagania na 3
  * przynajmniej 2 rozne watki przetwarzajace po kilka roznych zasobow
  * watek wyswietlajacy stan zasobow (przynajmniej raz na sekunde) przy uzyciu biblioteki ncurses
  * niewielkie problemy lub brak problemow zwiazanych z synchronizacja
- * uzycie C++11 oraz podstawowych metod synchronizacji (`std::thread`, `std::mutex`, `std::lock_guard`, `std::sleep_for`, `std::chrono`)
+ * uzycie podstawowych metod synchronizacji oraz C++11 (`std::thread`, `std::mutex`, `std::lock_guard`, `std::sleep_for`, `std::chrono`)
 
 Wymagania na 4
 --------------
@@ -29,7 +29,7 @@ Wymagania na 4
  * watek wyswietlajacy stan zasobow (przynajmniej raz na sekunde) przy uzyciu biblioteki ncurses
  * niewielkie problemy lub brak problemow zwiazanych z synchronizacja
  * brak aktywnego czekania
- * uzycie C++11, podstawowych oraz srednio zaawansowanych metod synchronizacji (`std::thread`, `std::mutex`, `std::condition_variable`, `std::lock_guard`, `std::unique_lock`, `std::sleep_for`, `std::chrono`)
+ * uzycie podstawowych oraz srednio zaawansowanych metod synchronizacji jak i C++11 (`std::thread`, `std::mutex`, `std::condition_variable`, `std::lock_guard`, `std::unique_lock`, `std::sleep_for`, `std::chrono`)
 
 Wymagania na 5
 --------------
@@ -40,7 +40,7 @@ Wymagania na 5
  * watek wyswietlajacy stan zasobow (przynajmniej raz na sekunde) przy uzyciu biblioteki ncurses
  * brak problemow zwiazanych z synchronizacja
  * brak aktywnego czekania
- * uzycie C++11, podstawowych oraz srednio zaawansowanych metod synchronizacji (`std::thread`, `std::mutex`, `std::recursive_mutex`, `std::condition_variable`, `std::atomic`, `std::lock_guard`, `std::unique_lock`, `std::sleep_for`, `std::chrono`)
+ * uzycie podstawowych oraz srednio zaawansowanych metod synchronizacji jak i C++11 (`std::thread`, `std::mutex`, `std::recursive_mutex`, `std::condition_variable`, `std::atomic`, `std::lock_guard`, `std::unique_lock`, `std::sleep_for`, `std::chrono`)
  * uzycie oraz wlasna implementacja **semafora** oraz **bariery**
 
 Oddawanie
