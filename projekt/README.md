@@ -10,4 +10,4 @@ Oceną końcową z projektu będzie średnia ważona(zaokrąglona do najbliższe
  - Program 2 - waga `0.2`
  - Program 3 - waga `0.7`
 
-Aby otrzymać pozytywną ocenę na koniec, należy jednak zaliczyć każdy program przynajmniej na ocenę `3`.
+Aby otrzymać pozytywną ocenę na koniec, należy zaliczyć **każdy** program przynajmniej na ocenę `3`.
