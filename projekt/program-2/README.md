@@ -20,7 +20,7 @@ W pierwszej z nich, jeden z wątków ma losować oraz przemieszczać w dół swo
 
 Trzy pozostałe wątki odpowiedzialne za trzy pozostałe części ekranu powinny z użyciem zmiennej warunkowej (bez aktywnego czekania) czekać na pojawienie się nowego klocka w kolekcji. W momencie gdy dowolny z wątków dostanie informację o nowym klocku w kolekcji, powinien go z niej wyciągnąć (zapamiętać i usunąć) a następnie narysować ów klocek w losowym miejscu w zakresie swojej ramki.
 
-W efekcie, klocki spadające z góry na dół w pierwszej części ekranu będą po dojściu do ramki pojawiać się w losowych miejscach pozostałych części ekranu (mogą tam pozostać nieruchome). Z czasem, 3 ostatnie ekrany będą się wypełniać klockami aż do zupełnego zamalowania.
+W efekcie, każdy kolejny klocek spadający z góry na dół w pierwszej części ekranu będzie po dojściu do ramki pojawiać się w losowym miejscu jednej z 3 pozostałych części ekranu (może on tam pozostać nieruchomy). Z czasem, 3 ostatnie ekrany będą się wypełniać klockami aż do zupełnego zamalowania.
 
 Wymagania formalne
 ------------------
