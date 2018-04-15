@@ -75,4 +75,5 @@ Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz wyśw
 ## Materiały
 
 [http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/find.pdf](http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/find.pdf)
+
 [http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/pipes2.pdf](http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/pipes2.pdf)
