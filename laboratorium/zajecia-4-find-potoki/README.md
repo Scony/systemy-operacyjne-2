@@ -1,7 +1,7 @@
 ## Zadania dla osób o parzystym numerze albumu
 
 1. Pobrać paczkę do testów: `wget http://ftp.gnu.org/gnu/coreutils/coreutils-8.27.tar.xz`
-2. Rozpakować: `$ tar Jxf coreutils-8.27.tar.xz`
+2. Rozpakować: `tar Jxf coreutils-8.27.tar.xz`
 3. Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz wykonuje na nim następujące akcje (każda za pomocą jednego `find` w potoku z `wc`):
   * wyświetla liczbę wszystkich katalogów
   * wyświetla liczbę wszystkich plików o rozszerzeniach `.sh` oraz `.pl`
@@ -15,7 +15,7 @@
 ## Zadania dla osób o nieparzystym numerze albumu
 
 1. Pobrać paczkę do testów: `wget http://ftp.gnu.org/gnu/coreutils/coreutils-8.27.tar.xz`
-2. Rozpakować: `$ tar Jxf coreutils-8.27.tar.xz`
+2. Rozpakować: `tar Jxf coreutils-8.27.tar.xz`
 3. Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz wykonuje na nim następujące akcje (każda za pomocą jednego `find` w potoku z `wc`):
   * wyświetla liczbę wszystkich plików
   * wyświetla liczbę wszystkich plików o rozszerzeniach `.c` oraz `.h`
