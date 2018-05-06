@@ -50,8 +50,8 @@ Napisać następujące skrypty w AWK:
 
 ### Grep
 
-1. Pobrać paczkę do testów: `$ wget https://github.com/google/guetzli/archive/master.zip`
-2. Rozpakować: `$ unzip master.zip`
+1. Pobrać paczkę do testów: `wget https://github.com/google/guetzli/archive/master.zip`
+2. Rozpakować: `unzip master.zip`
 3. Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz wykonuje na wszystkich plikach w nim się znajdujących (rekursywnie) następujące akcje (każda za pomocą pojedynczego potoku):
  * zlicza ilość linii zawierających słówko `TODO`
  * zlicza ilość pustych linii
