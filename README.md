@@ -7,7 +7,7 @@ Zasady zaliczenia całego kursu
 ------------------------------
 
 ```
-Ocena końcowa = 0.3 * lab + 0.3 * projekt + 0.4 * egzamin (lub przepisana ocena za wykład z poprzedniego semestru)
+Ocena końcowa = TBD
 ```
 
 Ciekawostki
