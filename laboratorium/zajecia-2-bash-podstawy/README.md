@@ -1,6 +1,7 @@
 # Materialy
 
 [Instrukcje do zajec](http://www.zsk.ict.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/bash.pdf)
+
 [Kalkulator modulo](https://www.miniwebtool.com/modulo-calculator)
 
 # Zadanie dla wszystkich 1
