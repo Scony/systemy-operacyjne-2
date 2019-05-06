@@ -4,6 +4,8 @@
 
 [Instrukcje do zajec (awk)](http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/awk1.pdf)
 
+![AWK](https://pbs.twimg.com/media/DeLcVfSWAAAw6OZ.jpg)
+
 # Zadania dla osób o parzystym numerze albumu
 
 ## Grep
@@ -102,7 +104,7 @@ Napisać następujące skrypty w AWK:
 
 ## Zadanie dodatkowe (grep)
 
-Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz bazując na wszystkich plikach w nim się znajdujących (rekursywnie), wyświetla statystykę pokazującą ilości słów występujących w plikach. Słowo składa się przynajmniej jednego znaku `a-z`. (`grep -hoE`, `sort`, `uniq`). Przewidywane wyjście:
+Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz bazując na wszystkich plikach w nim się znajdujących (rekursywnie), wyświetla statystykę pokazującą ilości słów występujących w plikach. Słowo składa się przynajmniej jednego znaku `a-z`. (`grep -hoE`, `sort`, `uniq`). Orientacyjne wyjście:
 ```
    1170 const
    1084 x
