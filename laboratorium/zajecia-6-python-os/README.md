@@ -50,7 +50,7 @@ Napisać następujące skrypty w języku python (wersja 2 lub 3 wedle uzniania):
 
 Napisać następujące skrypty powłoki BASH:
 
-1. Ustawiąjący zmienną środowiskową `XYZ` za pomocą skryptu *inline* w języku python (`python -c [KOMENDA]`) oraz wyświetlający jej zawartość z poziomu BASHa.
+1. Ustawiąjący zmienną środowiskową `XYZ` z poziomu BASHa oraz wyświetlający jej zawartość za pomocą skryptu *inline* w języku python (`python -c [KOMENDA]`).
 
 # Zadanie dodatkowe
 
