@@ -54,4 +54,4 @@ Napisać następujące skrypty powłoki BASH:
 
 # Zadanie dodatkowe
 
-Napisać skrypt w pythonie który naśladuje zachowanie polecenia `ls -l` - powinien on przyjmować ścieżkę do katalogu jako pierwszy argument skryptu i wyświetlać jego zawartość w taki sam sposób jak polecenie `ls -l`. Przykładowo, polecenie `python skrypt.py /` powinno zwrócić to samo co polecenie `ls -l /`.
+Napisać skrypt w pythonie który (bez uruchamiania podprocesu) naśladuje zachowanie polecenia `ls -l` - powinien on przyjmować ścieżkę do katalogu jako pierwszy argument skryptu i wyświetlać jego zawartość w taki sam sposób jak polecenie `ls -l`. Przykładowo, polecenie `python skrypt.py /` powinno zwrócić to samo co polecenie `ls -l /`.
